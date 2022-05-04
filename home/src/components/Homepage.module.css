@@ -1,0 +1,297 @@
+
+
+.imgDiv{
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.div2{
+    width:90%;
+    height: 430px;
+    margin: auto;
+    border: 1px solid red;  
+    display: flex;
+    justify-content: space-between;
+}
+/* .div2>div{
+    border: 1px solid black;
+  
+} */
+.div2>div:nth-child(1){
+    width: 48%;
+}
+.div2>div:nth-child(2){
+    width: 25%;
+}
+.div2>div:nth-child(3){
+    width: 20%;
+}
+.h1{
+  font-size: 50px;
+
+}
+.img2{
+    width: 100%;
+}
+.para{
+  
+   row-gap: 10%;
+}
+.rightLogo{
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.para2{
+    display: flex;
+    margin-top: 15px;
+}
+.para2>p{
+    text-align: left;
+}
+.readmore{
+    font-size: 18px;
+    width: 200px;
+    margin-left: -1020px;
+    padding: 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-top: -20px;  
+}
+.div3{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 70px;
+    background-color: rgb(243,245,237);
+}
+.logosDiv{
+    width: 80%;
+    height: 150px;
+    border: 1px solid black;
+    margin: auto;
+    display: flex;
+    justify-content:space-between ;
+    margin-top: 30px;
+    background-color: rgb(243,245,237);
+}
+.logosDiv>div{
+    border: 1px solid red;
+    border-radius: 50%;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(243,245,237);
+}
+.desc{
+    width: 90%;
+    margin: auto;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243,245,237);
+}
+.desc>div{
+    width: 24%;
+    background-color: rgb(243,245,237);
+    border: 1px solid rebeccapurple;
+}
+.gray{
+    background-color: rgb(243,245,237);
+}
+.wheel{
+    width: 900px;
+    height: 900px;
+    /* border: 1px solid yellow; */
+    margin: auto;
+    margin-top: 50px;
+   
+   
+   
+}
+.wheelImg{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%; 
+    
+}
+
+.wheelImg:hover{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%; 
+    margin-top: 450px;
+
+    position: absolute;
+    transform: translate(-50%,-50%);
+    animation: myfirst 10s infinite linear;
+}
+@keyframes myfirst{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+  
+
+}
+} 
+
+.greenDiv{
+    width: 100%;
+    height: 950px;
+    /* border: 1px solid black; */
+    background-color: greenyellow;
+    margin-top: -650px;
+    position: absolute;
+ 
+}
+.innerGreenDiv{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 150px;
+    /* border: 1px solid black; */
+    background-color: white;
+    border-radius: 20px;
+}
+.bttns{
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border:none;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bttns:hover{
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    color: greenyellow;
+}
+.innerGreenDiv2{
+    width: 90%;
+    height: 350px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.innerGreenDiv2>div{
+    width: 48%;
+    height: 100%;
+    /* border: 1px solid red;  */
+}
+
+.greenDivImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    
+}
+.viewPlanBttn{
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+    margin-left: -300px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+
+}
+.viewPlanBttn:hover{
+    background-color: rgb(3, 3, 52);
+}
+
+.overlayDiv{
+    width: 100%;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-top: 300px;
+    background-color: #fff;
+   
+    position: relative;
+    background-image: url(https://www.fitmeals.co.in/wp-content/uploads/2018/02/trial_parallax.jpg?id=10779);
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+
+.overlayDiv .overlayContent{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    color: white;
+}
+.content h1{
+    width: 50%;
+    font-size: 50px;
+    margin: auto;
+}
+
+.overlayDiv img{
+   width: 100%;
+  margin-bottom: -590px;
+  color: white;
+  
+
+}
+.orderbttn{
+    width: 180px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+
+}
+.orderbttn:hover{
+    background-color: rgb(128, 189, 37);
+}
+.dietplans{
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+.text{
+    width: 23%;
+    text-align:left;
+    margin-top: 50px;
+}
+.img{
+    width: 30%;
+    margin-top: 60px;
+}
+.learnmore{
+    width: 180px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 17px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white; 
+}
+.learnmore:hover{
+    background-color: rgb(128, 189, 37);
+}

@@ -1,41 +1,49 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Styles from './Homepage.module.css'
+import {Slide} from 'react-slideshow-image'
 import { SliderData } from './SliderData'
+import {useState} from 'react';
 
-function Homepage() {
-    // let images = ["https://sslimages.shoppersstop.com/sys-master/root/h69/hee/27312096247838/allen-solly_carousal-web--26-03-2022new-main-carousel-hp.jpg", "https://sslimages.shoppersstop.com/sys-master/root/h09/hb0/27309566722078/Wedding-Main-Banner-Web--hp-pg-25-03-2022.jpg", "https://sslimages.shoppersstop.com/sys-master/root/hb7/h8b/27287371743262/watch_carousal-web.jpg","https://sslimages.shoppersstop.com/sys-master/root/h4d/h18/27319630725150/web_hp_caudalie_main-carousel_20220328.jpg",];
-    // const slideImagfun=(images,slideshow)=>{
 
-    //     let img = document.createElement("img");
-    //     img.src = images[0];
-    //     let i = 0;
-    //     setInterval( ()=> {
-    //        if (i == images.length) {
-    //               i = 0;
-    //             }
-    //     let imgUrl = images[i++];
-    //     let img = document.createElement("img");
-    //     img.src = imgUrl;
-    //     img.setAttribute("style", "width:100%;  height: 200px;");
-    //     slideshow.innerHTML = null;
-    //     // slideshow.append(imgDiv)
-    //     }, 2000);
-    //  }
-    console.log(SliderData)
+const Homepage=()=> {
+
+    const [currentSlide,setCurrentSlide]=useState(0);
+    const slideLength=SliderData.length;
+
+    const nextSlide=()=>{
+        setCurrentSlide(currentSlide===slideLength-1 ? 0 : currentSlide+1)
+    }
+
+    const prevSlide=()=>{
+        setCurrentSlide(currentSlide===0 ? slideLength-1: currentSlide-1)
+    }
+
+    const autoScroll=true;
+    let slideInterval;
+    let intervalTime=3000;
+
+    const autoSlide=()=>{
+   slideInterval= setInterval(nextSlide,intervalTime);
+    }
+
+  useEffect(()=>{
+      setCurrentSlide(0)
+  },[])
     
+    useEffect(()=>{
+        if(autoScroll){
+        autoSlide();
+        }
+        return()=> clearInterval(slideInterval);
+    },[currentSlide])
+ 
+   
   return (
     
     <>
     <div className={Styles.imgDiv}>
-    {SliderData.map((slide,index)=>{
-              
-              return
-            (
-            <img src={slide.image} alt='travel image' />
-            
-            )
-               
-          })}
+        
+    
     </div>
        
   <div className={Styles.div2}>
@@ -148,11 +156,13 @@ function Homepage() {
       </div>
 
   </div>
-  <img src='https://www.fitmeals.co.in/wp-content/themes/fitmeal/assets/images/wave.svg'/>
+  {/* <img src='https://www.fitmeals.co.in/wp-content/themes/fitmeal/assets/images/wave.svg'/> */}
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L80,144C160,160,320,192,480,181.3C640,171,800,117,960,101.3C1120,85,1280,107,1360,117.3L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
   </div>
 
  
 {/* end overlay box */}
+</div>
 
 <div className={Styles.dietplans}>
   <div className={Styles.text}>
@@ -165,8 +175,41 @@ function Homepage() {
       <img src='https://www.fitmeals.co.in/wp-content/uploads/2019/02/dish_07-1-360x360-1.jpg'/>
   </div>
 </div>
-<p >Client Diaries</p>
+<p className={Styles.clientPara}>Client Diaries</p>
+<div className={Styles.diariesSliding}>
+  
+    <button className={Styles.prev} onClick={prevSlide}>prev</button>
+    <button className={Styles.next} onClick={nextSlide}>next</button>
+{SliderData.map((slide,index)=>{
+        return(
+            <div className={index==currentSlide ? "slide current":"slide"} key={index}>
+            {index===currentSlide &&(<img src={slide.image}/>)}
+             
+         </div>
+        )
+    })}
+
+   
+
+  
+
   </div>
+    {/* testimonial div */}
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L80,176C160,160,320,128,480,128C640,128,800,160,960,170.7C1120,181,1280,171,1360,165.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    <div className={Styles.testimonial}>
+    
+    <p>testimonial</p>
+    <h1 style={{fontSize:'40px'}}>What our clients say</h1>
+    <div className={Styles.logoDiv}></div>
+    <p style={{width:'40%',margin:'auto',fontSIze:'20px',marginTop:'40px'}}> Absolutely delicious, healthy and freshly prepared food. 
+        For sure makes me feel lighter I look forward to having Fitmeals every day.</p>
+
+  <img className={Styles.flowerImg} src='https://www.fitmeals.co.in/wp-content/uploads/2019/10/testimonials-bg.png'/>
+   </div>
+   <div className={Styles.mailList}>
+       <h1 style={{fontSize:'50px',paddingTop:'60px'}}>Join our <span style={{color:'white'}}>mailing list</span></h1>
+       <p>Subscribe to our newsletter to stay up to date with our discounts, new products, recipes & nutrition tips.</p>
+   </div>
     </>
   )
 }

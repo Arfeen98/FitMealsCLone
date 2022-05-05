@@ -1,9 +1,31 @@
 
 
-.imgDiv{
+/* .imgDiv{
   width: 100%;
   height: 500px;
   border: 1px solid black;
+} */
+.imgDiv{
+    width: 100%;
+    height: 680px;
+    /* background-color: rgb(95, 61, 20); */
+    background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
+        background-size: 100% 100%;
+    }
+    35%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
+        background-size: 100% 100%;
+    }
+    75%{
+        background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    }
+
 }
 .img{
     width: 100%;
@@ -238,12 +260,14 @@
     width: 50%;
     font-size: 50px;
     margin: auto;
+    margin-top: -70px;
 }
 
-.overlayDiv img{
+.overlayDiv svg{
    width: 100%;
-  margin-bottom: -590px;
-  color: white;
+  
+  margin-bottom: -650px;
+
   
 
 }
@@ -294,4 +318,56 @@
 }
 .learnmore:hover{
     background-color: rgb(128, 189, 37);
+}
+/* .diariesSliding{
+    width: 100%;
+    height: 300px;
+
+    background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    background-size: 100% 100%;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
+        background-size: 100% 100%;
+    }
+    35%{
+        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
+        background-size: 100% 100%;
+    }
+    75%{
+        background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
+    }
+
+} */
+.diariesSliding {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+    
+}
+.clientPara{
+    background-color: white;
+}
+.logoDiv{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: auto;
+
+}
+.testimonial{
+    margin-top: -20px;
+    background-color:rgb(243,244,245);
+}
+.flowerImg{
+    width: 100%;
+}
+.mailList{
+    width: 100%;
+    height: 400px;
+    margin-top: -42px;
+    background-color: greenyellow;
 }

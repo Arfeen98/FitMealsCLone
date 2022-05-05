@@ -35,14 +35,11 @@
     width:90%;
     height: 430px;
     margin: auto;
-    border: 1px solid red;  
+    /* border: 1px solid red;   */
     display: flex;
     justify-content: space-between;
 }
-/* .div2>div{
-    border: 1px solid black;
-  
-} */
+
 .div2>div:nth-child(1){
     width: 48%;
 }
@@ -63,15 +60,17 @@
   
    row-gap: 10%;
 }
-.rightLogo{
-    width: 40px;
-    height: 20px;
-    margin-top: 20px;
-    margin-right: 15px;
-}
+
 .para2{
     display: flex;
-    margin-top: 15px;
+    margin-top: 10px;
+   
+}
+.para2 i{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: rgb(142,192,56);
 }
 .para2>p{
     text-align: left;
@@ -88,7 +87,7 @@
     margin-top: -20px;  
 }
 .div3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 100%;
     margin-top: 70px;
     background-color: rgb(243,245,237);
@@ -96,7 +95,7 @@
 .logosDiv{
     width: 80%;
     height: 150px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     display: flex;
     justify-content:space-between ;
@@ -104,16 +103,24 @@
     background-color: rgb(243,245,237);
 }
 .logosDiv>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 50%;
-    width: 15%;
-    height: 100%;
-    background-color: rgb(243,245,237);
+    margin-top: 30px;
+    width: 10%;
+    height: 70%;
+    background-color: rgb(142,192,56);
+}
+.logosDiv>div i{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 22px;
+    color: white;
+   
 }
 .desc{
     width: 90%;
     margin: auto;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
     background-color: rgb(243,245,237);
@@ -121,7 +128,7 @@
 .desc>div{
     width: 24%;
     background-color: rgb(243,245,237);
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 .gray{
     background-color: rgb(243,245,237);
@@ -168,7 +175,7 @@
     width: 100%;
     height: 950px;
     /* border: 1px solid black; */
-    background-color: greenyellow;
+    background-color: rgb(142,192,56);
     margin-top: -650px;
     position: absolute;
  
@@ -195,7 +202,7 @@
 .bttns:hover{
     /* border: 1px solid red; */
     border-radius: 30px;
-    color: greenyellow;
+    color: rgb(142,192,56);
 }
 .innerGreenDiv2{
     width: 90%;
@@ -289,11 +296,15 @@
 .dietplans{
     width: 100%;
     margin: auto;
-    height: 500px;
+    /* height: 500px; */
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+.para{
+    font-size: 40px;
+    color: rgb(142,192,56);
 }
 
 .text{
@@ -319,28 +330,7 @@
 .learnmore:hover{
     background-color: rgb(128, 189, 37);
 }
-/* .diariesSliding{
-    width: 100%;
-    height: 300px;
 
-    background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
-    background-size: 100% 100%;
-    animation: slider 10s infinite linear;
-}
-@keyframes slider{
-    0%{
-        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
-        background-size: 100% 100%;
-    }
-    35%{
-        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
-        background-size: 100% 100%;
-    }
-    75%{
-        background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
-    }
-
-} */
 .diariesSliding {
     width: 100%;
     height: 300px;
@@ -351,23 +341,156 @@
 .clientPara{
     background-color: white;
 }
-.logoDiv{
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    margin: auto;
 
+.logoDiv i{
+    font-size: 50px;
+    color: rgb(142,192,56);
 }
 .testimonial{
-    margin-top: -20px;
+    margin-top: -45px;
     background-color:rgb(243,244,245);
 }
 .flowerImg{
     width: 100%;
+    padding-top: 50px;
 }
 .mailList{
     width: 100%;
     height: 400px;
     margin-top: -42px;
-    background-color: greenyellow;
+    background-color: rgb(142,192,56);
+}
+.emailBox{
+    width: 500px;
+    height: 60px;
+    /* border: 1px solid black; */
+    
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: white;
+}
+ 
+.emailInput{
+    height: 90%;
+    width: 60%;
+    font-size: 18px;
+  border: none;
+  outline: none;
+} 
+.subscribeBttn{
+    width: 180px;
+    height: 100%;
+    margin-right: -23px;
+    border-radius: 30px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+.recentArticleDiv{
+    width: 90%;
+    /* height: 780px; */
+    /* border: 1px solid black; */
+    
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.recentArticleDiv>div{
+    width: 31%;
+    height: 100%;
+    background-color: rgb(243,245,237);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+}
+.recentImg1 img{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    
+}
+
+.recentImg1 {
+    overflow: hidden;
+}
+.recentImg1>img:hover{
+    
+    
+        transition: transform 0.5s;
+        
+        cursor: zoom-in;
+        transform: skew(5deg);
+       transform: scale(1.1);
+      
+    
+   
+}
+
+.recentImg2 img{
+    width: 100%;
+}
+.recentImg3 img{
+    width: 100%;
+}
+.recentBttn{
+    font-size: 18px;
+   padding: 7px;
+   padding-left: 20px;
+   padding-right: 20px;
+   border-radius: 20px;
+   border: none;
+   background-color: rgb(142,192,56);
+   color: white;
+   margin-top: -40px;
+   
+   
+}
+.recentArticleDiv h1{
+    width: 90%;
+    margin-left: 20px;
+    text-align: center;
+}
+.recentArticleDiv h1:hover{
+    color: rgb(142,192,56);
+}
+.recentArticleDiv p{
+    width: 90%;
+    margin-left: 20px;
+    text-align: center;
+}
+.recentArticleDiv hr{
+    margin-top: 50px;
+}
+.paragraph{
+    font-size: 40px;
+    font-family: "Sacramento";
+    padding-top: 50px;
+    margin-bottom: -40px;
+    color: rgb(142,192,56);
+}
+.h1Tag{
+    font-size: "Fira Sans", serif;
+    font-size: 50px;
+}
+.next{
+    border: none;
+    color: white;
+    background-color: white;
+}
+.prev{
+    border: none;
+    color: white;
+    background-color: white;
+}
+.details{
+    display: flex;
+}
+.details i{
+   margin: 19px -50px 0 25px;
+   color: rgb(142,192,56);
 }

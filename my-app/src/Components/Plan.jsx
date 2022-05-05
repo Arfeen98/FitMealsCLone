@@ -5,7 +5,9 @@ const Plan = () => {
   
       <div id="flex_4">
            <div className='flex_4child'>
-             <div className='flex_4child1'></div>
+             <div className='flex_4child1'>
+             <i className="fa-solid fa-apple-whole fa-4x" style={{color: "aliceblue"}}></i>
+             </div>
              <div className='flex_4child2'>
                <h3>Select your plan</h3>
              </div>
@@ -14,7 +16,9 @@ const Plan = () => {
              </div>
            </div>
            <div className='flex_4child'>
-             <div className='flex_4child1'></div>
+             <div className='flex_4child1'>
+             <center><i className="fa-solid fa-dumbbell fa-4x" style={{color: "aliceblue"}}></i></center>
+             </div>
              <div className='flex_4child2'>
                <h3>Nutrition Support</h3>
              </div>
@@ -23,7 +27,9 @@ const Plan = () => {
              </div>
            </div>
            <div className='flex_4child'>
-             <div className='flex_4child1'></div>
+             <div className='flex_4child1'>
+             <center>  <i className="fa-solid fa-phone-volume fa-4x" style={{color: "aliceblue"}}></i></center>
+             </div>
              <div className='flex_4child2'>
                <h3>Home delivery</h3>
              </div>
@@ -32,7 +38,9 @@ const Plan = () => {
              </div>
            </div>
            <div className='flex_4child'>
-             <div className='flex_4child1'></div>
+             <div className='flex_4child1'>
+             <center> <i className="fa-solid fa-child fa-4x" style={{color: "aliceblue"}}></i></center>
+             </div>
              <div className='flex_4child2'>
                <h3>Enjoy your meal</h3>
              </div>

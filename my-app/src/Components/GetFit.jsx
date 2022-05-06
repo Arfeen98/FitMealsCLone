@@ -3,7 +3,7 @@ import './weight.css'
 const GetFit = () => {
   return (
     <div id='Fit'>
-      <i class="fa-solid fa-quote-right"></i>
+      <i id='colo' className="fa-solid fa-quote-right fa-5x"></i>
         <h4>Get Fit in the gym,
         <br />
         lose weight in the Kitchen.</h4>

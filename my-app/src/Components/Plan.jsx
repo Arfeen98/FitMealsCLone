@@ -2,11 +2,11 @@ import React from 'react'
 import './weight.css'
 const Plan = () => {
   return (
-  
+    // <i class="fa-regular fa-calendar-days"></i>
       <div id="flex_4">
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             <i className="ltx-icon icon-calories bg-transparent" style={{color: "aliceblue"}}></i>
+             <i className="fa-regular fa-calendar-days fa-4x" style={{color: "aliceblue"}}></i>
              </div>
              <div className='flex_4child2'>
                <h3>Select your plan</h3>
@@ -29,20 +29,18 @@ const Plan = () => {
            </div>
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             {/* <center><i className="fa-thin fa-moped" style={{color: "aliceblue"}}></i></center> */}
-             <i className="fa-regular fa-moped"></i>
+             <center><i className="fa-solid fa-motorcycle fa-4x" style={{color: "aliceblue"}}></i></center>
              </div>
              <div className='flex_4child2'>
                <h3>Home delivery</h3>
              </div>
              <div className='flex_4child3'>
-             Freshly prepared, hot meals will be delivered right at your doorstep.
+             <p>Freshly prepared, hot meals will be delivered right at your doorstep.</p>
              </div>
            </div>
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             {/* <center> <i className="fa-solid fa-child fa-4x" style={{color: "aliceblue"}}></i></center> */}
-             <i className="fa-duotone fa-microwave"></i>
+             <center> <i className="fa-solid fa-box-open fa-4x" style={{color: "aliceblue"}}></i></center>
              </div>
              <div className='flex_4child2'>
                <h3>Enjoy your meal</h3>

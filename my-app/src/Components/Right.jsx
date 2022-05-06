@@ -26,7 +26,8 @@ const Right = () => {
   return (
     <>
       <div id="right_cont1">
-                  <h6>What our meals look like:</h6>
+                  <h6>What our meals look <br />
+                  <span>like:</span> </h6>
               </div>
               <div id="right_cont2">
               <div className="slide-container">

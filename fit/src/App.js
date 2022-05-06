@@ -7,17 +7,19 @@ import Services from "./Services";
 import Works from "./Works"
 import Customer from "./Customer";
 import Mobile from "./Mobile";
+import Checkout from "./Checkout";
 function App() {
   return (
     <div className="App">
-     <Health/>
+     {/* <Health/>
     <Features/>
     <Appintment/>
     <Services/>
 
     <Works/>
     <Customer/>
-    <Mobile/>
+    <Mobile/> */}
+    <Checkout/>
     </div>
   );
 }

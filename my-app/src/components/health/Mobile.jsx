@@ -1,4 +1,5 @@
 import React from 'react'
+import "./health.css";
 
 function Mobile() {
   return (

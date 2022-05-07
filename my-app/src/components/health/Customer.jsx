@@ -1,4 +1,5 @@
 import React from 'react'
+import "./health.css";
 
 function Customer() {
   return (
@@ -8,19 +9,19 @@ function Customer() {
         <p>127</p>
         <p>Happy Customers</p>
     </div>
-    <hr noshade/>
+    <hr/>
 
     <div>
         <p>24</p>
         <p>Nutrition Programs</p>
     </div>
-    <hr noshade/>
+    <hr/>
 
     <div>
         <p>15</p>
         <p>Coaching Certificates</p>
     </div>
-    <hr noshade/>
+    <hr/>
 
     <div>
         <p>520+</p>

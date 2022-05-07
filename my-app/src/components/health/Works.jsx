@@ -1,4 +1,5 @@
 import React from 'react'
+import "./health.css";
 
 function Works() {
   return (
@@ -13,19 +14,19 @@ function Works() {
             <h3>Download the app</h3>
             <p>Click on the link and get on board our Fitmeals app</p>
         </div>
-        <hr noshade/>
+        <hr/>
         <div>
             <i className="fa-solid fa-user-check icon icon2"></i>
             <h3>Book an appointment</h3>
             <p>Our nutritionists will help find the right plan for you</p>
         </div>
-        <hr noshade=""/>
+        <hr />
         <div>
             <i className="fa-solid fa-calculator icon"></i>
             <h3>Place an order</h3>
             <p>Choose the plan the fits you well and place an order</p>
         </div>
-        <hr noshade/>
+        <hr/>
         <div>
             <i className="fa-solid fa-check icon"></i>
             <h3>Get started</h3>

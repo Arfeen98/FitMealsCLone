@@ -1,32 +1,16 @@
 
 
-/* .imgDiv{
+.imgDiv{
   width: 100%;
   height: 500px;
   border: 1px solid black;
-} */
-.imgDiv{
+}
+ .imgDiv{
     width: 100%;
     height: 680px;
-    /* background-color: rgb(95, 61, 20); */
-    background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
-    background-size: 100% 100%;
-    animation: slider 10s infinite linear;
+ 
 }
-@keyframes slider{
-    0%{
-        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/Creative-1-1920x1280px.jpg");
-        background-size: 100% 100%;
-    }
-    35%{
-        background-image: url("https://www.fitmeals.co.in/wp-content/uploads/2021/09/businesswoman-2817567_1920.jpg");
-        background-size: 100% 100%;
-    }
-    75%{
-        background-image: url("https://www.fitmeals.co.in//wp-content//uploads//2021//09//man-2264825_1920.jpg");
-    }
 
-}
 .img{
     width: 100%;
     height: 100%;
@@ -45,26 +29,31 @@
 }
 .div2>div:nth-child(2){
     width: 25%;
+
 }
 .div2>div:nth-child(3){
     width: 20%;
 }
-.h1{
-  font-size: 50px;
-
+.div2>div p{
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
+    line-height: 30px;
 }
+
 .img2{
     width: 100%;
 }
 .para{
-  
-   row-gap: 10%;
+    line-height: 30px;
 }
 
 .para2{
     display: flex;
-    margin-top: 10px;
-   
+    margin-top: 10px; 
+}
+.para2 p{
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
 }
 .para2 i{
     font-size: 20px;
@@ -74,6 +63,15 @@
 }
 .para2>p{
     text-align: left;
+    line-height: 30px;
+}
+.fitMealpara{
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
+    width: 70%;
+    margin-left: 200px;
+    line-height: 30px;
+    
 }
 .readmore{
     font-size: 18px;
@@ -85,6 +83,11 @@
     background-color: black;
     color: white;
     margin-top: -20px;  
+}
+.readmore:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: white;
 }
 .div3{
     /* border: 1px solid black; */
@@ -101,6 +104,7 @@
     justify-content:space-between ;
     margin-top: 30px;
     background-color: rgb(243,245,237);
+
 }
 .logosDiv>div{
     /* border: 1px solid red; */
@@ -109,14 +113,24 @@
     width: 10%;
     height: 70%;
     background-color: rgb(142,192,56);
+    position:relative;
+    transition: all 0.3s linear; 
+}
+.logosDiv>div:hover{
+    transform: rotateY(180deg);
 }
 .logosDiv>div i{
+    /* border: 1px solid red; */
     font-size: 60px;
     text-align: center;
     margin-top: 22px;
     color: white;
+    /* position: relative;
+    transition: all 1s linear; */
+    
    
 }
+
 .desc{
     width: 90%;
     margin: auto;
@@ -124,6 +138,16 @@
     display: flex;
     justify-content: space-between;
     background-color: rgb(243,245,237);
+}
+.descH2 {
+   
+    color: #292d35;
+}
+
+.descp{
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
+    line-height: 30px;
 }
 .desc>div{
     width: 24%;
@@ -198,11 +222,16 @@
     background-color: white;
     font-weight: bold;
     cursor: pointer;
+    color: #292d35;
 }
 .bttns:hover{
     /* border: 1px solid red; */
     border-radius: 30px;
     color: rgb(142,192,56);
+}
+.h1Fonts{
+ 
+    color: #292d35;
 }
 .innerGreenDiv2{
     width: 90%;
@@ -235,6 +264,7 @@
     border: none;
     background-color: red;
     color: white;
+    font-family: "Open Sans", sans-serif;
 
 }
 .viewPlanBttn:hover{
@@ -264,10 +294,12 @@
     color: white;
 }
 .content h1{
+    
     width: 50%;
     font-size: 50px;
     margin: auto;
     margin-top: -70px;
+    
 }
 
 .overlayDiv svg{
@@ -305,6 +337,11 @@
 .para{
     font-size: 40px;
     color: rgb(142,192,56);
+    font-family:'Sacramento', serif;
+}
+.h2{
+    color: rgb(142,192,56);
+ 
 }
 
 .text{
@@ -347,12 +384,19 @@
     color: rgb(142,192,56);
 }
 .testimonial{
+    /* margin-top: -45px; */
+    height: 800px;
     margin-top: -45px;
     background-color:rgb(243,244,245);
+    border: 1px  ;
 }
 .flowerImg{
     width: 100%;
-    padding-top: 50px;
+    height: 200px;
+  
+    /* padding-top: 50px; */
+   
+   
 }
 .mailList{
     width: 100%;
@@ -410,26 +454,33 @@
 }
 .recentImg1 img{
     width: 100%;
-    border-top-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     
 }
 
 .recentImg1 {
     overflow: hidden;
 }
-.recentImg1>img:hover{
+ .recentImg1 img  {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .recentImg1 img:hover, .recentImg1 img:focus, .recentImg1 img:active {
+    -webkit-transform: scale(1.1) rotate(4deg);
+    transform: scale(1.1) rotate(4deg);
+  }
+  .img1Box{
     
-    
-        transition: transform 0.5s;
-        
-        cursor: zoom-in;
-        transform: skew(5deg);
-       transform: scale(1.1);
-      
-    
-   
-}
+      overflow: hidden;
+  }
 
 .recentImg2 img{
     width: 100%;
@@ -446,14 +497,21 @@
    border: none;
    background-color: rgb(142,192,56);
    color: white;
-   margin-top: -40px;
+   margin-top: -20px;
+   margin-left: -66px;
+   position: absolute;
    
-   
+}
+.recentBttn:hover{
+    border: 2px solid rgb(142,192,56);
+    background-color: white;
+    color:rgb(142,192,56) ;
 }
 .recentArticleDiv h1{
     width: 90%;
     margin-left: 20px;
     text-align: center;
+    color: #292d35;
 }
 .recentArticleDiv h1:hover{
     color: rgb(142,192,56);
@@ -462,13 +520,17 @@
     width: 90%;
     margin-left: 20px;
     text-align: center;
+    color: #292d35;
+    font-family: "Open Sans", sans-serif;
+    line-height: 30px;
 }
 .recentArticleDiv hr{
     margin-top: 50px;
+  
 }
 .paragraph{
     font-size: 40px;
-    font-family: "Sacramento";
+    font-family:'Sacramento', serif;
     padding-top: 50px;
     margin-bottom: -40px;
     color: rgb(142,192,56);
@@ -476,21 +538,78 @@
 .h1Tag{
     font-size: "Fira Sans", serif;
     font-size: 50px;
+   color:#292d35;
 }
 .next{
-    border: none;
-    color: white;
-    background-color: white;
+   
+ position: absolute;
+margin-top: 14%;
+margin-left: 30%;
+border: none;
+background-color: rgb(243,244,245);
 }
 .prev{
-    border: none;
-    color: white;
-    background-color: white;
-}
+   
+    position: absolute;
+   margin-top: 14%;
+   margin-left:-46%;
+   border: none;
+   background-color: rgb(243,244,245);
+   }
 .details{
     display: flex;
 }
 .details i{
    margin: 19px -50px 0 25px;
    color: rgb(142,192,56);
+}
+.details p{
+ color: #292d35;
+
+}
+.pFonts{
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
+    line-height: 30px;
+}
+.h1TagFonts{
+    font-family: "Fira Sans", serif;
+}
+.SliderBox{
+    width: 80%;
+    height: 350px;
+    /* border: 1px solid black; */
+    font-family: "Open Sans", sans-serif;
+    color: #292d35;
+    margin: auto;
+    margin-left: 200px;
+  
+    
+}
+.SliderBox img{
+    width: 100px;
+    height: 100px;
+    padding-top: 80px;
+    margin: auto;
+ 
+    
+  
+}
+.SliderBox p{
+    width: 70%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.prevBox{
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+.prevBox i{
+  font-size: 20px;
+ 
+  margin-top: 25px;
 }

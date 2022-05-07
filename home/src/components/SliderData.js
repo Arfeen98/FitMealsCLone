@@ -1,3 +1,26 @@
+
+export const slideImageData=[
+    {
+        id:1,
+        quote:'  <i class="fas fa-quote-right"></i>',
+        para:'Absolutely delicious, healthy and freshly prepared food. For sure makes me    feel lighter I look forward to having Fitmeals every day.',
+        img:'https://www.fitmeals.co.in/wp-content/uploads/2017/05/11-01-110x110.png',
+        name:'Divya',
+    },
+    {
+        id:2,
+        quote:'  <i class="fas fa-quote-right"></i>',
+        para:'Absolutely delicious, healthy and freshly prepared food. For sure makes me    feel lighter I look forward to having Fitmeals every day.',
+        img:'https://www.fitmeals.co.in/wp-content/uploads/2021/05/12-01-110x110.png',
+        name:'Sanjana Devulapally',
+    },
+]
+    
+
+
+
+
+
 export const SliderData=[
     {
     image:'https://sslimages.shoppersstop.com/sys-master/root/h69/hee/27312096247838/allen-solly_carousal-web--26-03-2022new-main-carousel-hp.jpg',

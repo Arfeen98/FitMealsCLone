@@ -57,7 +57,7 @@ function Login() {
           window.localStorage.setItem("Token", res.data.token);
           window.sessionStorage.setItem("Token", res.data.token);
           alert("you are login");
-          navigate("/Home");
+          navigate("/");
         })
         .catch((err) => {
           console.log("error in axius", err);
@@ -67,13 +67,13 @@ function Login() {
 
   return (
     <div>
-          <div id="background">
+      <div id="background">
         <h1 id="account">My account</h1>
-        </div>
-      <div >
+      </div>
+      <div>
         <div className="container">
           <div className="form">
-           <h1>Login</h1>
+            <h1>Login</h1>
             <form
               onSubmit={formik.handleSubmit}
               className="signUp"
@@ -81,9 +81,10 @@ function Login() {
               method="get"
             >
               <div className="formGroup">
-              <label id="label" for="username">Username or email address&nbsp;<span class="required">*</span></label>
+                <label id="label" for="username">
+                  Username or email address&nbsp;<span class="required">*</span>
+                </label>
                 <input
-                  
                   type="email"
                   placeholder="Email ID"
                   value={formik.values.email}
@@ -99,7 +100,9 @@ function Login() {
                 <br />
               </div>
               <div className="formGroup">
-                <label id="label" for="username">Password&nbsp;<span class="required">*</span></label>
+                <label id="label" for="username">
+                  Password&nbsp;<span class="required">*</span>
+                </label>
                 <input
                   type="password"
                   id="password"
@@ -140,7 +143,7 @@ function Login() {
               </div> */}
               <div className="formGroup">
                 <button
-                  id ="button2"
+                  id="button2"
                   type="submit"
                   disabled={!(formik.isValid && formik.dirty)}
                   className="btn2"
@@ -150,17 +153,14 @@ function Login() {
               </div>
             </form>
             <p className="reg-tag">
-          
-              <Nav.Link  as={Link} to="/registration">
-          Create a Account?
-          </Nav.Link>
-        </p>
-
+              <Nav.Link as={Link} to="/registration">
+                Create a Account?
+              </Nav.Link>
+            </p>
           </div>
         </div>
       </div>
-      <div>
-             </div>
+      <div></div>
 
       <div>
         <Footer />

@@ -1,5 +1,5 @@
-import React from 'react'
-import { Route,Routes,BrowserRouter as Router } from 'react-router-dom'
+import React from "react";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 // import AMP from '../../AMP/AMP'
 // import KMP from '../../KMP/KMP'
 // import MMP from '../../MMP/MMP'
@@ -16,7 +16,7 @@ import { Route,Routes,BrowserRouter as Router } from 'react-router-dom'
 // import Home from '../Home/Home'
 // import Nav from '../Layout/Nav'
 // import WLMP from '../WLMP/WLMP'
-import Login from '../Login/Login'
+import Login from "../Login/Login";
 // import Meals from '../Meals/Meals'
 // import OneWeekMMP from '../OneWeekMMP/OneWeekMMP'
 // import OneWeekMMP from '../OneWeekMMP/OneWeekMMP'
@@ -30,20 +30,33 @@ import Login from '../Login/Login'
 // import Keto_TwoWeek from '../Keto_TwoWeek/Keto_TwoWeek'
 // import Keto_FourWeek from '../Keto_FourWeek/Keto_FourWeek'
 // import Protected from './Protected'
-import Reg from '../Registration/Registration'
+import Reg from "../Registration/Registration";
+import Homepage from "../HomePage/Homepage";
+import Navbar from "../navbar/Navbar";
+import Footer from "../Footer/Footer";
+import ProductListing from "../Products/containers/ProductListing";
+import { CategoryCard } from "../Products/containers/CategoryCard";
+import { Cart } from "../Products/containers/Cart";
+import Health from "../health/Health";
 
-
-export default function 
-() {
+export default function () {
   return (
-   <Router>
-       
-       <Routes>
-       
-       <Route path="Login" element={<Login/>} />
-       <Route path="registration" element={<Reg/>} />
-
-       </Routes>
-   </Router>
-  )
+    <>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="registration" element={<Reg />} />
+          <Route path="/products" element={<ProductListing />} />
+          <Route path="/products/:sweets" element={<CategoryCard />} />
+          <Route path="/products/:sauces" element={<CategoryCard />} />
+          <Route path="/products/:butter" element={<CategoryCard />} />
+          <Route path="/health" element={<Health />} />
+          <Route path="/cart" element={<Cart />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </>
+  );
 }

@@ -106,7 +106,6 @@
     height:350px;
     position: relative;
     background-image:url('https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg');
-    filter: blur(0px);
    
     /* border: 1px solid red; */
     background-size: cover;

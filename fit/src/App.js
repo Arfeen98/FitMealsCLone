@@ -8,6 +8,7 @@ import Works from "./Works"
 import Customer from "./Customer";
 import Mobile from "./Mobile";
 import Checkout from "./Checkout";
+import Slider from "./Slider";
 function App() {
   return (
     <div className="App">
@@ -19,7 +20,7 @@ function App() {
     <Works/>
     <Customer/>
     <Mobile/> */}
-    <Checkout/>
+    <Slider/>
     </div>
   );
 }

@@ -1,9 +1,7 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-
 const Weightloss = () => {
-    
     const slideImages = [
         {
           url: 'https://www.fitmeals.co.in/wp-content/uploads/2021/05/52383BDD-D644-454A-AC1D-50E2DF6B7AF6-2.jpg',
@@ -40,5 +38,4 @@ const Weightloss = () => {
     </div>
   )
 }
-
 export default Weightloss

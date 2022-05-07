@@ -1,0 +1,107 @@
+.reg-form {
+    padding: 2rem;
+  
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  /* .reg-main {
+    
+    background-image: url(" https://freepngimg.com/save/139178-food-plate-diet-free-transparent-image-hd/578x580");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+  } */
+  input[type="text"],
+  input[type="password"],
+  input[type="phone"],
+  input[type="email"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: black;
+  }
+  button[type="submit"] {
+    background-color: blue;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  button[type="submit"]:hover {
+    background-color: #b93673;
+  }
+  .reg-form {
+    width: 30vw;
+    display: inline-block;
+    margin: 1rem;
+    /* background: var(--color-black); */
+    color:blue;
+    font-size: 17px;
+    border: 1px solid var(--color-golden);
+  }
+  
+  .reg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .reg-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-golden);
+  }
+  @media screen and (max-width: 992px) {
+    .reg-form {
+      width: 30vw;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .reg-form {
+      width: 40vw;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    .reg-form {
+      width: 60vw;
+    }
+  }
+  #back {
+    width: 98%;
+    height: 300px;
+    border: 1px solid red;
+  }
+  #background{
+    width:100%;
+    margin: auto;
+    height:350px;
+    position: relative;
+    background-image:url('https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg');
+    filter: blur(0px);
+   
+    /* border: 1px solid red; */
+    background-size: cover;
+}
+#account {
+   font-family: "Fira Sans", serif;
+   font-weight: 700;
+   font-size: 60px;
+   color: white;
+   text-align: center;
+   padding-top: 150px;
+}

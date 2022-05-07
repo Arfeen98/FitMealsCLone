@@ -1,0 +1,132 @@
+
+.container{
+    width: 600px;
+    height: 370px;
+    border: 1px solid #d3ced2;
+    padding: 20px;
+    margin: 2em 0;
+    text-align: left;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+#name {
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 22px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    background-clip: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#email {
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 22px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    background-clip: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#pass {
+    width: 70%;
+    margin: 0 auto;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 22px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    border-radius: 36px;
+    background-clip: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-main), sans-serif;
+    font-weight: 400;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+
+#button2 {
+    font-size: 14px;
+    padding: 7px 30px;
+    line-height: 1.6em;
+    min-width: 125px;
+    border-radius: 36px;
+    background-color:rgb(218,36,36);
+    margin-top: 10px;
+    color: white;
+    border: none;
+    margin-left: 0px;
+}
+#button2:hover {
+    background-color: #70a21a;
+    color: white;
+    border: none;
+  }
+  .login {
+  
+      margin-left: 450px;
+  }
+  #login_head {
+      margin-left: 30px;
+  }
+  .reg-tag {
+      text-decoration: none;
+      color: rgb(41,45,53);
+      margin-top: 10px;
+      font-size: 16px;   
+  }
+  .reg-tag:hover {
+      color: #70a21a;;
+  }
+  #background{
+    width:100%;
+    margin: auto;
+    height:350px;
+    position: relative;
+    background-image:url('https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg');
+    filter: blur(0px);
+   
+    /* border: 1px solid red; */
+    background-size: cover;
+}
+#account {
+   font-family: "Fira Sans", serif;
+   font-weight: 700;
+   font-size: 60px;
+   color: white;
+   text-align: center;
+   padding-top: 150px;
+}
+#label {
+    color: rgba(41,45,53,.7);
+}
+.required{
+    color: red;
+    font-weight: 700;
+    border: 0!important;
+    text-decoration: none;
+}
+
+  

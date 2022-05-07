@@ -88,6 +88,7 @@
     border: 1px solid black;
     color: black;
     background-color: white;
+    cursor:pointer;
 }
 .div3{
     /* border: 1px solid black; */
@@ -228,6 +229,7 @@
     /* border: 1px solid red; */
     border-radius: 30px;
     color: rgb(142,192,56);
+    cursor:pointer;
 }
 .h1Fonts{
  
@@ -265,10 +267,11 @@
     background-color: red;
     color: white;
     font-family: "Open Sans", sans-serif;
-
+  
 }
 .viewPlanBttn:hover{
     background-color: rgb(3, 3, 52);
+    cursor:pointer;
 }
 
 .overlayDiv{
@@ -324,6 +327,7 @@
 }
 .orderbttn:hover{
     background-color: rgb(128, 189, 37);
+    cursor:pointer;
 }
 .dietplans{
     width: 100%;
@@ -366,14 +370,28 @@
 }
 .learnmore:hover{
     background-color: rgb(128, 189, 37);
+    cursor:pointer;
 }
 
 .diariesSliding {
     width: 100%;
     height: 300px;
     background-color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
+    display: flex;
     
+}
+.diariesSliding>div{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 350px;
+}
+
+.imgBox img {
+  width:30%;
+  height: 350px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .clientPara{
     background-color: white;
@@ -431,6 +449,7 @@
     background-color: red;
     color: white;
     font-size: 18px;
+    cursor:pointer;
 }
 .recentArticleDiv{
     width: 90%;
@@ -506,6 +525,7 @@
     border: 2px solid rgb(142,192,56);
     background-color: white;
     color:rgb(142,192,56) ;
+    cursor:pointer;
 }
 .recentArticleDiv h1{
     width: 90%;
@@ -555,6 +575,7 @@ background-color: rgb(243,244,245);
    margin-left:-46%;
    border: none;
    background-color: rgb(243,244,245);
+  
    }
 .details{
     display: flex;
@@ -606,6 +627,7 @@ background-color: rgb(243,244,245);
     height: 70px;
     border: 1px solid black;
     border-radius: 50%;
+    cursor:pointer;
     
 }
 .prevBox i{

@@ -276,6 +276,10 @@ i{
     font-size: 30px;
     Color:#292d35;
 }
+#flex_4child1:hover{
+    transition: 0.9s;
+    transform: rotate(180deg);
+}
 #grid{
     display: grid;
     width: 85%;

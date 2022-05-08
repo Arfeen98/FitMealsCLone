@@ -27,7 +27,7 @@ const Weightloss = () => {
        <Slide>
          {slideImages.map((slideImage, index)=> (
             <div className="each-slide" key={index}>
-              <div id='slider_img'
+              <div id='slider_img1'
                style={{'backgroundImage': `url(${slideImage.url}),url(${slideImage.url1}),url(${slideImage.url2})
                `}}>
                 <span>{slideImage.caption}</span>

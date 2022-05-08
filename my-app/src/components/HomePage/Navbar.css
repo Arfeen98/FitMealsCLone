@@ -8,7 +8,7 @@
   display: flex;
   height: 50px;
   width: 100%;
-  border: 1px solid rgb(177, 171, 171);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 
 .leftDiv {
@@ -75,16 +75,19 @@
 .nav_third {
   height: 50px;
   /* border: 1px solid black; */
-  margin: 20px;
+  /* margin: 20px; */
   width: 180px;
   border-radius: 25px;
   background-color: rgb(223, 13, 13);
   color: white;
-  padding-left: 30px;
-  padding-top: 15px;
+  /* padding-left: 30px;
+  padding-top: 15px; */
   font-size: 15px;
-  margin-left: 190px;
+  /* margin-left: 190px; */
   cursor: pointer;
+  display: flex;
+  /* align-items: center; */
+  justify-content: flex-start;
 }
 .nav_third:hover {
   background-color: #8ae237;
@@ -136,11 +139,11 @@
 
 /* Slider Bar CSS */
 
-.slider {
+/* .slider {
   position: relative;
   height: 600px;
   width: 100%;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -151,8 +154,8 @@
   width: 1600px;
   border-radius: 10px;
   animation: sliderZoomEffect 8s linear infinite;
-  /* filter: blur(2px);
-  -webkit-filter: blur(2px); */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
   color: rgba(0, 0, 0, 0.2);
 }
 @keyframes sliderZoomEffect {
@@ -225,4 +228,4 @@
   left: 25%;
   color: white;
   font-size: 200%;
-}
+} */

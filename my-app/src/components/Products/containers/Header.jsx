@@ -12,6 +12,7 @@ const Header = (props) => {
         justifyContent: "center",
         alignItems: "center",
         marginBottom: "100px",
+        marginTop: "150px",
       }}
     >
       <img

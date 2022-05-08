@@ -6,15 +6,15 @@
   margin-bottom: 50px;
 }
 
-.leftDiv {
+.productleftDiv {
   width: 30%;
 }
 
-.rightDiv {
+.productrightDiv {
   width: 65%;
 }
 
-.sortDiv {
+.productsortDiv {
   display: flex;
   justify-content: space-between;
   padding-left: 38px;
@@ -27,12 +27,12 @@
   border-radius: 25px;
 }
 
-.sortDiv > p {
+.productsortDiv > p {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
-.sortDiv > select {
+.productsortDiv > select {
   background-color: #f3f5ed;
   color: #281819;
   border: none;
@@ -49,7 +49,7 @@
   gap: 30px;
 }
 
-.card {
+.productcard {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -57,12 +57,12 @@
   text-align: center;
 }
 
-.imageDiv > img {
+.productimageDiv > img {
   height: 236px;
   border-radius: 25px;
 }
 
-.imageDiv > img {
+.productimageDiv > img {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -73,31 +73,31 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.imageDiv > img:hover,
-.imageDiv > img:focus,
-.imageDiv > img:active {
+.productimageDiv > img:hover,
+.productimageDiv > img:focus,
+.productimageDiv > img:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
 
-.contentDiv > p {
+.productcontentDiv > p {
   margin: 20px;
 }
 
-.name {
+.productname {
   color: #292d35;
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: 24px;
 }
 
-.description {
+.productdescription {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #292d35;
 }
 
-.price {
+.productprice {
   color: #da2424;
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
@@ -166,13 +166,13 @@
   background: #da2424;
 }
 
-.readMore {
+/* .readMore {
   color: #92c038;
   margin-top: 20px;
   font-family: "Fira Sans", sans-serif;
   font-size: 14px;
   font-weight: bold;
-}
+} */
 
 .cartHr {
   display: block;

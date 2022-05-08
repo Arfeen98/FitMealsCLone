@@ -48,7 +48,7 @@ export const CategoryCard = () => {
       <Header title={prodCat} />
 
       <div className="mainProdDiv">
-        <div className="leftDiv">
+        <div className="productleftDiv">
           {cartArr.length === 0 ? (
             <div>
               <h1>Cart is empty!</h1>
@@ -107,8 +107,8 @@ export const CategoryCard = () => {
           )}
         </div>
 
-        <div className="rightDiv">
-          <div className="sortDiv">
+        <div className="productrightDiv">
+          <div className="productsortDiv">
             <p>Showing {fildata.length} results</p>
 
             <select onChange={handleSort}>
@@ -124,14 +124,14 @@ export const CategoryCard = () => {
               return (
                 <div key={id}>
                   <div className="parentCard">
-                    <div className="card">
-                      <div className="imageDiv">
+                    <div className="productcard">
+                      <div className="productimageDiv">
                         <img src={image} alt={name} />
                       </div>
-                      <div className="contentDiv">
-                        <p className="name">{name}</p>
-                        <p className="description">{description}</p>
-                        <p className="price">₹{price}</p>
+                      <div className="productcontentDiv">
+                        <p className="productname">{name}</p>
+                        <p className="productdescription">{description}</p>
+                        <p className="productprice">₹{price}</p>
                       </div>
                       <button
                         className="cartBtn"

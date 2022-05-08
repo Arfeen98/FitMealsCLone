@@ -38,6 +38,10 @@ import ProductListing from "../Products/containers/ProductListing";
 import { CategoryCard } from "../Products/containers/CategoryCard";
 import { Cart } from "../Products/containers/Cart";
 import Health from "../health/Health";
+import Athletic from "../Mealplans/Athletic";
+import Maintenance from "../Mealplans/Maintenance";
+import Keto from "../Mealplans/Keto";
+import WeightMealPlans from "../Mealplans/WeightMealPlans";
 
 export default function () {
   return (
@@ -53,6 +57,10 @@ export default function () {
           <Route path="/products/:sauces" element={<CategoryCard />} />
           <Route path="/products/:butter" element={<CategoryCard />} />
           <Route path="/health" element={<Health />} />
+          <Route path="/weightmealplans" element={<WeightMealPlans />} />
+          <Route path="/keto" element={<Keto />} />
+          <Route path="/maintenance" element={<Maintenance />} />
+          <Route path="/athletic" element={<Athletic />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />

@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "./Registration.css"
+import "./Registration.css";
 import { useFormik } from "formik";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Footer from "../Footer/Footer";
-
-
 
 const ValidateForm = (formValue) => {
   const errors = {};
@@ -75,14 +73,19 @@ function Reg() {
   });
 
   return (
-   
-    <div className="reg-main">
-          <div id="background">
-        <h1 id="account"> Sign Up</h1>
-        </div>
+    <div className="regmainsignup">
+      <div id="signupbackground">
+        <h1 id="signupaccount"> Sign Up</h1>
+      </div>
       <br></br>
-      <h1 className="reg-heading">User Registration</h1>
-      <di0 className="reg">
+
+      <div className="userreg">
+        <h1
+          className="reg-heading"
+          style={{ fontFamily: "Fira Sans", textAlign: "left" }}
+        >
+          User Registration
+        </h1>
         <form className="reg-form" onSubmit={formik.handleSubmit}>
           {/* First Name:{" "}
           <input
@@ -115,6 +118,11 @@ function Reg() {
             value={formik.values.username}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            style={{
+              padding: "15px",
+              fontSize: "large",
+              border: "2px solid rgb(27, 27, 27)",
+            }}
           />
           {formik.touched.username && formik.errors.username ? (
             <span style={{ color: "red" }}>{formik.errors.username}</span>
@@ -127,6 +135,11 @@ function Reg() {
             value={formik.values.email}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            style={{
+              padding: "15px",
+              fontSize: "large",
+              border: "2px solid rgb(27, 27, 27)",
+            }}
           />
           {formik.touched.email && formik.errors.email ? (
             <span style={{ color: "red" }}>{formik.errors.email}</span>
@@ -139,6 +152,11 @@ function Reg() {
             value={formik.values.password}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            style={{
+              padding: "15px",
+              fontSize: "large",
+              border: "2px solid rgb(27, 27, 27)",
+            }}
           />
           {formik.touched.password && formik.errors.password ? (
             <span style={{ color: "red" }}>{formik.errors.password}</span>
@@ -147,14 +165,13 @@ function Reg() {
             type="submit"
             disabled={!(formik.isValid && formik.dirty)}
             style={{ fontSize: "16px" }}
+            className="signupsubmit"
           >
             Submit
           </button>
         </form>
-      </di0>
-      <Footer/>
+      </div>
     </div>
-  
   );
 }
 

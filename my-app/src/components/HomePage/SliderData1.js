@@ -1,4 +1,4 @@
-export const SliderData = [
+export const SliderData1 = [
     {
         image : 'https://www.fitmeals.co.in/wp-content/uploads/2018/02/SLIDE_01.jpg'
     },

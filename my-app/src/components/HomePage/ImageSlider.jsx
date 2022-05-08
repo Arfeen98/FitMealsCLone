@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Navbar.css";
-import { SliderData } from "./SliderData1";
+import { SliderData1 } from "./SliderData1";
 
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -46,20 +46,20 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className="slider">
+    <section className="homeslider1">
       <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide} />
       <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide} />
-      {SliderData.map((elem, index) => {
+      {SliderData1.map((elem, index) => {
         return (
-          <figure>
+          <figure key={elem.image}>
             <div
-              className={index === current ? "slide active" : "slide"}
+              className={index === current ? "homeslide1 active" : "homeslide1"}
               key={index}
             >
               {index === current && (
-                <img src={elem.image} alt="Food img" className="image" />
+                <img src={elem.image} alt="Food img" className="sliderimage" />
               )}
-              <div className="wrapper">
+              <div className="homewrapper">
                 <p className="tagMe">{tag}</p>
                 <p className="paraMe">{para}</p>
               </div>

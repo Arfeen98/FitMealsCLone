@@ -67,13 +67,13 @@ function Login() {
 
   return (
     <div>
-      <div id="background">
+      <div id="loginbackground">
         <h1 id="account">My account</h1>
       </div>
       <div>
-        <div className="container">
+        <div className="logincontainer">
           <div className="form">
-            <h1>Login</h1>
+            <h1 style={{ fontFamily: "Fira Sans" }}>Login</h1>
             <form
               onSubmit={formik.handleSubmit}
               className="signUp"
@@ -82,7 +82,8 @@ function Login() {
             >
               <div className="formGroup">
                 <label id="label" for="username">
-                  Username or email address&nbsp;<span class="required">*</span>
+                  Username or email address&nbsp;
+                  <span className="required">*</span>
                 </label>
                 <input
                   type="email"
@@ -92,7 +93,12 @@ function Login() {
                   onBlur={formik.handleBlur}
                   name="email"
                   required
-                  autocomplete="off"
+                  autoComplete="off"
+                  style={{
+                    padding: "15px",
+                    fontSize: "large",
+                    border: "2px solid rgb(27, 27, 27)",
+                  }}
                 />
                 {formik.touched.email && formik.errors.email ? (
                   <span>{formik.errors.email}</span>
@@ -101,7 +107,7 @@ function Login() {
               </div>
               <div className="formGroup">
                 <label id="label" for="username">
-                  Password&nbsp;<span class="required">*</span>
+                  Password&nbsp;<span className="required">*</span>
                 </label>
                 <input
                   type="password"
@@ -112,7 +118,12 @@ function Login() {
                   onBlur={formik.handleBlur}
                   name="password"
                   required
-                  autocomplete="off"
+                  autoComplete="off"
+                  style={{
+                    padding: "15px",
+                    fontSize: "large",
+                    border: "2px solid rgb(27, 27, 27)",
+                  }}
                 />
                 {formik.touched.password && formik.errors.password ? (
                   <span>{formik.errors.password}</span>
@@ -162,9 +173,7 @@ function Login() {
       </div>
       <div></div>
 
-      <div>
-        <Footer />
-      </div>
+      <div></div>
     </div>
   );
 }

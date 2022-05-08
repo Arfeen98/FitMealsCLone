@@ -21,6 +21,10 @@ thead > tr {
   border-radius: 50px;
 }
 
+thead > tr > td {
+  padding-top: 24px;
+}
+
 tbody > tr > td {
   padding-top: 25px;
   padding-bottom: 25px;

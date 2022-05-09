@@ -17,9 +17,9 @@ function Services() {
          	
                 <div className="description">
                    <h2 className="header">Nutrition Programs</h2> 
-                    <p>Diet charts designed to help you reach your goals in a sustainable manner without using any crash diet approach.</p>
+                    <p style={{fontSize:"14px",fontFamily:"Open Sans"}}>Diet charts designed to help you reach your goals in a sustainable manner without using any crash diet approach.</p>
                     
-                    <a  target="_blank">Read More</a>
+                    <a  target="_blank" style={{color:"white"}}>Read More</a>
                 </div>
  
             </div>
@@ -29,7 +29,7 @@ function Services() {
                 <img className="food_image" src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/adult-1850925_640-1-275x275.jpg" alt=""/>
                 <div className="description">
                     <h2 className="header">Workout Programs</h2>
-                    <p>Easy workout routines designed according to your fitness levels with constant motivation to push yourself.</p>
+                    <p style={{fontSize:"14px",fontFamily:"Open Sans"}}> Easy workout routines designed according to your fitness levels with constant motivation to push yourself.</p>
                     <a href="workout.html" target="_blank" >Read More</a>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function Services() {
                 <img className="food_image" src="https://www.fitmeals.co.in/wp-content/uploads/2019/10/doctor-5710152_640-275x275.jpg" alt=""/>
                 <div className="description">
                     <h2 className="header">Health Councelling</h2>
-                    <p>30 minute consultations with any of our nutritionists every week to discuss your progress and problems.</p>
+                    <p style={{fontSize:"14px",fontFamily:"Open Sans"}}>30 minute consultations with any of our nutritionists every week to discuss your progress and problems.</p>
                     <a href="health.html" target="_blank">Read More</a>
                 </div>
             </div>

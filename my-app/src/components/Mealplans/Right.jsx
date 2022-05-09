@@ -32,7 +32,7 @@ const Right = () => {
       </div>
       <div id="right_cont2">
         <div className="slide-container">
-          <Slide>
+          <Slide style={{marginTop:"-150px"}}>
             {slideImages.map((slideImage, index) => (
               <div className="each-slide" key={index}>
                 <div

@@ -42,6 +42,7 @@ import Athletic from "../Mealplans/Athletic";
 import Maintenance from "../Mealplans/Maintenance";
 import Keto from "../Mealplans/Keto";
 import WeightMealPlans from "../Mealplans/WeightMealPlans";
+import Checkout from "../health/Checkout"
 
 export default function () {
   return (
@@ -62,6 +63,8 @@ export default function () {
           <Route path="/maintenance" element={<Maintenance />} />
           <Route path="/athletic" element={<Athletic />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+
         </Routes>
         <Footer />
       </Router>

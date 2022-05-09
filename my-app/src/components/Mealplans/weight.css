@@ -1,28 +1,30 @@
-
+#top{
+    margin-top: 150px;
+}
 #background{
-    width:95%;
+    width:100%;
     margin: auto;
     height:355px;
     position: relative;
     background-image:url('https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg');
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
     /* border: 1px solid red; */
 }
 .img_over{
     /* backdrop-filter: blur(5px); */
     position: absolute;
-   top: 18%;
+   top: 40%;
    font-size: 48px;
  
-   left: 30%;
+   left: 35%;
    color: white;
 }
 .img_over1{
     position: absolute;
-    top:19%;
+    top:40%;
     font-size: 50px;
-    left:39%;
+    left:43%;
     color: white;
 }
 #Cont{
@@ -132,14 +134,17 @@
 #right_cont2{
     width:90%;
     margin:auto;
-    margin-top:20px;
-    height:290px;
-    /* border: 1px solid black; */
+    margin-top:-20px;
+    height:auto;
+
+    border: 1px solid black;
 }
 #slide_img{
-    height:202px;
-    width: 400px;
+    height:250px;
+    width: 100%;
+    /* margin-top:-180px; */
 }
+
 .btn{
     display: inline-block;
     padding: 8px 20px;
@@ -157,6 +162,7 @@
 }
 .btn:hover{
     background-color: #292d35;
+    color: #F4F2E9;
 }
 #right_cont1>h6{
     margin-top: -0.5px;
@@ -166,8 +172,16 @@
     font-weight: 400;
     font-size: 40px;
 }
+#right_cont1>h6>span{
+    margin-top: -0.5px;
+    margin-top: 10px;
+    color:#292d35;
+    font-family: Sacramento, serif;
+    font-weight: 400;
+    font-size: 40px;
+}
 #how_work{
-    margin-top: 20px;
+    padding-top: 40px;
     margin: auto;
 }
 #how_work>h2{
@@ -181,10 +195,11 @@
     margin-top: 10px;
     width:85%;
     height: 250px;
-    gap:30px;
+    gap:90px;
     margin: auto;
+    /* border: 1px solid black; */
 }
-#flex_4>div{
+.flex_4child{
     margin-top:15px;
     width: 258px;
     height: 253px;
@@ -197,6 +212,8 @@
     height: 120px;
     border-radius: 50%;
     background-color: #8ec038;
+    position: relative;
+    transition: all 0.3s linear;
 }
 .flex_4child3>p{
     font-family: "Open Sans", sans-serif;
@@ -277,8 +294,8 @@ i{
     Color:#292d35;
 }
 #flex_4child1:hover{
-    transition: 0.9s;
-    transform: rotate(180deg);
+    /* transition: 0.9s; */
+    transform: rotateY(180deg);
 }
 #grid{
     display: grid;

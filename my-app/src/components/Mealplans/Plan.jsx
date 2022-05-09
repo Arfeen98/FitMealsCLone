@@ -6,7 +6,7 @@ const Plan = () => {
       <div id="flex_4">
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             <i className="fa-regular fa-calendar-days fa-4x" style={{color: "aliceblue"}}></i>
+             <i className="fa-regular fa-calendar-days fa-6x" style={{color: "aliceblue"}}></i>
              </div>
              <div className='flex_4child2'>
                <h3>Select your plan</h3>
@@ -17,7 +17,7 @@ const Plan = () => {
            </div>
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             <i className="fa-solid fa-user-check fa-4x" style={{color: "aliceblue"}}></i>
+             <i className="fa-solid fa-user-check fa-6x" style={{color: "aliceblue"}}></i>
              {/* <i className="fa-solid fa-user-check"></i> */}
              </div>
              <div className='flex_4child2'>
@@ -29,7 +29,7 @@ const Plan = () => {
            </div>
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             <center><i className="fa-solid fa-motorcycle fa-4x" style={{color: "aliceblue"}}></i></center>
+             <div><i className="fa-solid fa-motorcycle fa-6x" style={{color: "aliceblue"}}></i></div>
              </div>
              <div className='flex_4child2'>
                <h3>Home delivery</h3>
@@ -40,7 +40,7 @@ const Plan = () => {
            </div>
            <div className='flex_4child'>
              <div className='flex_4child1'>
-             <center> <i className="fa-solid fa-box-open fa-4x" style={{color: "aliceblue"}}></i></center>
+             <div> <i className="fa-solid fa-box-open fa-6x" style={{color: "aliceblue"}}></i></div>
              </div>
              <div className='flex_4child2'>
                <h3>Enjoy your meal</h3>

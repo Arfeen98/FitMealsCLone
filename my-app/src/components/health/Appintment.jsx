@@ -26,7 +26,6 @@ function Appintment() {
                     <div className="clock">
                         <i className="fa-regular fa-clock fa-2x" style={{color: "#8ec038",marginLeft:"30px"}}></i>
 
-                   
                     </div>
 
                     <div className="call">

@@ -12,7 +12,7 @@ const WeightMealPlans = () => {
         <div id="background">
           {/* <img src="https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg" alt="" /> */}
         </div>
-        <h1 className="img_over">Weight Loss Meal Plan</h1>
+        <h1 className="img_over" style={{top:"38%",left:"32%"}}>Weight Loss Meal Plan</h1>
       </div>
       <br />
       <div id="Cont">

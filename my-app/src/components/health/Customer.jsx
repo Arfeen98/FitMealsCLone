@@ -6,26 +6,26 @@ function Customer() {
     <>
             <div id="container3">
     <div>
-        <p>127</p>
-        <p>Happy Customers</p>
+        <p style={{marginTop:"80px"}}>127</p>
+        <p style={{marginTop:"60px"}}>Happy Customers</p>
     </div>
     <hr/>
 
     <div>
-        <p>24</p>
-        <p>Nutrition Programs</p>
+        <p style={{marginTop:"80px"}}>24</p>
+        <p style={{marginTop:"60px"}}>Nutrition Programs</p>
     </div>
     <hr/>
 
     <div>
-        <p>15</p>
-        <p>Coaching Certificates</p>
+        <p style={{marginTop:"80px"}}>15</p>
+        <p style={{marginTop:"60px"}}>Coaching Certificates</p>
     </div>
     <hr/>
 
     <div>
-        <p>520+</p>
-        <p>Workout Session</p>
+        <p style={{marginTop:"80px"}}>520+</p>
+        <p style={{marginTop:"60px"}}>Workout Session</p>
     </div>
 </div>
     </>

@@ -12,7 +12,7 @@ const Keto = () => {
         <div id='background'>
             {/* <img src="https://www.fitmeals.co.in/wp-content/uploads/2018/02/inner-page.jpg" alt="" /> */}
         </div>
-            <h1 className="img_over1">Keto Meal Plan</h1>
+            <h1 className="img_over1"  style={{top:"38%",left:"40%"}}>Keto Meal Plan</h1>
         </div>
          <br />
          <div id="Cont">

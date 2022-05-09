@@ -17,7 +17,7 @@ function Appintment() {
                     </div>
 
                     <div className="call">
-                      <p> Every day from 12:00 PM to 10:00 PM </p>
+                      <p style={{fontSize:"16px"}}> Every day from 12:00 PM to 10:00 PM </p>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ function Appintment() {
                     </div>
 
                     <div className="call">
-                      <p > +91 9100347489</p>
+                      <p  style={{fontSize:"16px"}}> +91 9100347489</p>
                     </div>
                 </div>
              

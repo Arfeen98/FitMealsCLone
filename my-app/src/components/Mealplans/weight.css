@@ -14,10 +14,10 @@
 .img_over{
     /* backdrop-filter: blur(5px); */
     position: absolute;
-   top: 40%;
+   top: 35%;
    font-size: 48px;
  
-   left: 35%;
+   left: 10%;
    color: white;
 }
 .img_over1{

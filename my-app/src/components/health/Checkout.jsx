@@ -1,6 +1,7 @@
 import React from 'react'
 import "./checkout.css"
 import { Link } from 'react-router-dom'
+import {Pay} from "./Pay"
 
 function Checkout() {
   return (
@@ -102,7 +103,7 @@ border: "1px solid grey"}}/>
    <Link to="/registration" style={{fontSize:"16px"}} >Create an account?</Link>
 
   <div style={{marginLeft:"-250%"}}>
-  <a href="payment.html">​<button className="Chkbtn">Place Order</button></a>
+  <Link to="/payment">​<button className="Chkbtn">Place Order</button></Link>
   </div>
   
 </form>

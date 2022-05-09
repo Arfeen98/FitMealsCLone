@@ -1,10 +1,10 @@
 import React from 'react'
-import "./health.css"
+import "./features.css"
 
 function Features() {
   return (
     <>
-       <div className="features">
+       {/* <div className="features">
         <div className="health">
            
             <center> <i className="fa-solid fa-hand-holding-medical fa-6x" style={{color:"aliceblue"}}></i></center>
@@ -13,7 +13,7 @@ function Features() {
         </div>
 
       
-        <div className="clipboard">
+        <div className="clipboard" style={{height:"150px"}}>
             <center> <i className="fa-solid fa-clipboard fa-6x" style={{color: "aliceblue"}}></i></center>
            
             <p style={{fontSize:"16px" , marginTop:"10px"}}>Customized Diet Plan</p>
@@ -39,7 +39,10 @@ function Features() {
             <p style={{fontSize:"16px", marginTop:"10px"}}>Weekly Consultation</p>
         </div>
 
-    </div>
+    </div> */}
+
+
+
   
     </>
   )

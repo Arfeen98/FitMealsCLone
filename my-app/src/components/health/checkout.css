@@ -30,7 +30,7 @@
   position: relative;
   z-index: 2;
 } */
-h1 {
+/* h1 {
   font-size: 54px;
   font-weight: 800;
   color: #fff;
@@ -39,7 +39,7 @@ h1 {
 
 body {
   margin: 0;
-}
+} */
 #inner-container-checkout {
   /* border: 2px solid red; */
   width: 70%;
@@ -64,10 +64,10 @@ a {
 a:hover {
   color: #91c23e;
 }
-p {
+/* p {
   font-size: 40px;
   font-weight: 900;
-}
+} */
 /* input{
             border-radius: 30px;
             padding: 18px;

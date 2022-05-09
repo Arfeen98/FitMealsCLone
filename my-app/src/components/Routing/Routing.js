@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Route,
-  Routes,
-  BrowserRouter as Router,
-} from "react-router-dom";
+import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 // import AMP from '../../AMP/AMP'
 // import KMP from '../../KMP/KMP'
 // import MMP from '../../MMP/MMP'

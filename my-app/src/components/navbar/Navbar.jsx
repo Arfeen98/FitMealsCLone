@@ -39,7 +39,9 @@ const Navbar = () => {
       </div>
       <div className="navbar">
         <div className="nav_first">
-          <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/06/logo-black.png" />
+          <Link to="/">
+            <img src="https://www.fitmeals.co.in/wp-content/uploads/2019/06/logo-black.png" />
+          </Link>
         </div>
         <div className="nav_sec">
           <div>

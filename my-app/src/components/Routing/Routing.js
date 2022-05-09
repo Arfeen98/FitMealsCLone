@@ -1,5 +1,9 @@
 import React from "react";
-import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+import {
+  Route,
+  Routes,
+  BrowserRouter as Router,
+} from "react-router-dom";
 // import AMP from '../../AMP/AMP'
 // import KMP from '../../KMP/KMP'
 // import MMP from '../../MMP/MMP'
@@ -42,8 +46,8 @@ import Athletic from "../Mealplans/Athletic";
 import Maintenance from "../Mealplans/Maintenance";
 import Keto from "../Mealplans/Keto";
 import WeightMealPlans from "../Mealplans/WeightMealPlans";
-import Checkout from "../health/Checkout"
-import Pay from "../health/Pay"
+import Checkout from "../health/Checkout";
+import Pay from "../health/Pay";
 
 export default function () {
   return (
@@ -66,7 +70,6 @@ export default function () {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/payment" element={<Pay />} />
-
         </Routes>
         <Footer />
       </Router>

@@ -19,20 +19,22 @@ In this project we have tried to clone Fitmeal website, Styling using CSS and tr
 For storing all data we used localStorage.
 Snapshots 📷
 •	 page (Home page)
- <img src='./Images/Home.png' width='300' height='200'>
+ <img src='./Images/Home.png' width='500' height='250'>
+ <img src='./Images/Home1.png' width='500' height='250'>
 
-•	Body care Page
+•	Product Page
+ <img src='./Images/Products.png' width='500' height='250'>
+ <img src='./Images/Plans.png' width='500' height='250'>
+
   
-•	Implement Sort By and Filters  Page
+•	Slider
+ <img src='./Images/Slider.png' width='500' height='250'>
   
-
-
 •	Cartage
+ <img src='./Images/Cart.png' width='500' height='250'>
   
 •	Signup & Login Page
-
- 
-
+ <img src='./Images/Login.png' width='500' height='250'>
 
 How to run the Project
 •	Open my-app in your terminal.

@@ -3,7 +3,7 @@ Unit 4 Project
 __________________________
 Project: Make a clone of www.fitmeals.co.in.
 
-Cloned-Website: https://flourishing-brigadeiros-066ec5.netlify.app/
+Cloned-Website:https://fit-meals.netlify.app/
 
 
 In this project we have tried to clone Fitmeal website, Styling using CSS and tried to make website more dynamic and responsive. With our efforts and the technology that we have learned in Unit-4 in the Masai School, we were able to clone the website in 6 days with the same looking and some features.
